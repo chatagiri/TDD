@@ -3,6 +3,7 @@ package money;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
+// page 6
 public class MoneyTest {
 
     @Test
