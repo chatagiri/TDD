@@ -3,7 +3,7 @@ package money;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-// page 14
+// page 21
 public class MoneyTest {
 
     @Test
@@ -19,5 +19,8 @@ public class MoneyTest {
     @Test
     public void testEquality(){
         assertTrue(new Dollar(5).equals(new Dollar(5)));
+
+        // $5 != $6
+        assertFalse(new Dollar(5).equals(new Dollar(6)));
     }
 }
