@@ -2,7 +2,6 @@ package money;
 
 class Dollar {
 
-    // テスト変更によりamountを扱うのはDollarクラスのみとなった
     private int amount;
     Dollar(int amount){
         this.amount = amount;

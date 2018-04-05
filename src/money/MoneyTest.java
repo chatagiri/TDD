@@ -8,10 +8,7 @@ public class MoneyTest {
     @Test
     public void testMultiplication() {
         Dollar five = new Dollar(5);
-        // 一時変数productは不要となった
-        // Dollar product = five.times(2);
         assertEquals(new Dollar(10), five.times(2));
-        // product = five.times(3);
         assertEquals(new Dollar(15), five.times(3));
     }
 
